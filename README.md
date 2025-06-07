@@ -4,9 +4,17 @@
 
 A set of Jupyter notebooks demonstrating the core math required for machine learning, implemented with numpy. This repo covers linear algebra, probability, and statistics, with clear, practical examples.
 
+## Note on Status
+
+This repo is a work in progress, filling out as I encounter concepts in my classes:
+
+- Linear Algebra: In Progress
+- Probability: Not Started
+- Statistics: Not Started
+
 ## Why?
 
-I'm upskilling from software engineering to machine learning. Instead of just learning theory on a paper notebook, I'm implementing every concept as code, for my own understanding and as a reference for others.
+I'm upskilling from software engineering to machine learning. Instead of just learning theory on paper, I'm implementing every concept as code, for my own understanding and as a reference for others.
 
 ## Contents
 
@@ -15,9 +23,9 @@ I'm upskilling from software engineering to machine learning. Instead of just le
 - Statistics (mean, variance, hypothesis testing, etc.)
 - Each concept is explained briefly and then implemented with numpy.
 
-## How to use
+## How to Use
 
-These instructions reflect how the author uses these notebooks. There are two main ways I use them:
+These instructions reflect how I use these notebooks. There are two main ways I work with them:
 
 ### Option 1: View on GitHub (Recommended for learning)
 
@@ -25,7 +33,7 @@ These instructions reflect how the author uses these notebooks. There are two ma
 - GitHub will render the notebooks with all explanations and code
 - Great for learning concepts and reviewing code
 
-### Option 2: Run locally with VS Code/Cursor (Author's preferred method for running code)
+### Option 2: Run locally with VS Code/Cursor (My preferred method for running code)
 
 1. Clone the repo
 2. Create and activate a virtual environment:
@@ -34,7 +42,7 @@ These instructions reflect how the author uses these notebooks. There are two ma
    # Create virtual environment
    python -m venv venv
 
-   # Activate virtual environment (on mac)
+   # Activate virtual environment (on macOS)
    source venv/bin/activate
    ```
 
@@ -42,16 +50,16 @@ These instructions reflect how the author uses these notebooks. There are two ma
    ```bash
    pip install -r requirements.txt
    ```
-4. Install VS Code and the "Jupyter" extension
-5. Open any notebook in VS Code
+4. Install VS Code (or Cursor) and the "Jupyter" extension
+5. Open any notebook in your editor
 6. Select your Python interpreter (the venv you created)
 7. Run cells using the play button or Shift+Enter
 
 ## Requirements
 
-- Python 3.8 or higher (The author likes managing python with asdf)
+- Python 3.8 or higher (I use asdf for Python version management)
 - See `requirements.txt` for package dependencies
 
-## Status
+## Contributions
 
-This repo is a work in progress. Contributions and corrections are welcome but may not be merged until the author gets to that concept and actually understands them.
+Contributions are welcome, but I probably won't merge them until I actually understand the mathematical concepts myself.
